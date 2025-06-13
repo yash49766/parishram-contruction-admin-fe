@@ -481,7 +481,7 @@ function Contact() {
                                                     bgcolor: 'primary.main',
                                                     color: 'white',
                                                     fontWeight: 'bold',
-                                                    fontSize: '0.95rem'
+                                                    fontSize: '1.1rem'
                                                 }}
                                             >
                                                 <Box display="flex" alignItems="center" gap={1}>
@@ -489,33 +489,33 @@ function Contact() {
                                                     Contact
                                                 </Box>
                                             </TableCell>
-                                            <TableCell sx={{ bgcolor: 'primary.main', color: 'white', fontWeight: 'bold' }}>
+                                            <TableCell sx={{ bgcolor: 'primary.main', color: 'white', fontWeight: 'bold',fontSize: '1.1rem' }}>
                                                 <Box display="flex" alignItems="center" gap={1}>
                                                     <EmailIcon fontSize="small" />
                                                     Email
                                                 </Box>
                                             </TableCell>
-                                            <TableCell sx={{ bgcolor: 'primary.main', color: 'white', fontWeight: 'bold' }}>
+                                            <TableCell sx={{ bgcolor: 'primary.main', color: 'white', fontWeight: 'bold',fontSize: '1.1rem' }}>
                                                 <Box display="flex" alignItems="center" gap={1}>
                                                     <PhoneIcon fontSize="small" />
                                                     Phone
                                                 </Box>
                                             </TableCell>
                                             {!isTablet && (
-                                                <TableCell sx={{ bgcolor: 'primary.main', color: 'white', fontWeight: 'bold' }}>
+                                                <TableCell sx={{ bgcolor: 'primary.main', color: 'white', fontWeight: 'bold',fontSize: '1.1rem' }}>
                                                     <Box display="flex" alignItems="center" gap={1}>
                                                         <MessageIcon fontSize="small" />
                                                         Message
                                                     </Box>
                                                 </TableCell>
                                             )}
-                                            <TableCell sx={{ bgcolor: 'primary.main', color: 'white', fontWeight: 'bold' }}>
+                                            <TableCell sx={{ bgcolor: 'primary.main', color: 'white', fontWeight: 'bold',fontSize: '1.1rem' }}>
                                                 <Box display="flex" alignItems="center" gap={1}>
                                                     <DateRangeIcon fontSize="small" />
                                                     Date
                                                 </Box>
                                             </TableCell>
-                                            <TableCell align="center" sx={{ bgcolor: 'primary.main', color: 'white', fontWeight: 'bold' }}>
+                                            <TableCell align="center" sx={{ bgcolor: 'primary.main', color: 'white', fontWeight: 'bold',fontSize: '1.1rem' }}>
                                                 Actions
                                             </TableCell>
                                         </TableRow>
